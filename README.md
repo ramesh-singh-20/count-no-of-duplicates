@@ -10,6 +10,8 @@ Make sure before increasing the counter check if this number already compared in
 
 This code can also be used to find the duplicates in a given list which we are printing.
 
+**Time Complexity**: O(N2)
+
 **Testing**
 
 For testing Spock and groovy framework is used.
