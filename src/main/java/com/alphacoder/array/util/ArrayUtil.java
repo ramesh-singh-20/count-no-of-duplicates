@@ -14,10 +14,7 @@ public class ArrayUtil {
         List<Integer> duplicateNumbers= new ArrayList<>();
 
         for(int i=0; i<numbers.size(); i++){
-            int currentElement= numbers.get(i);
-
             for(int j=i+1; j<numbers.size(); j++){
-                int innerElement= numbers.get(j);
                 if(numbers.get(i).equals(numbers.get(j))){
                     if(!duplicateNumbers.contains(numbers.get(i))){
                         duplicateNumbers.add(numbers.get(i));
